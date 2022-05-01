@@ -1,0 +1,19 @@
+{
+  "name": "node-js--rss-admin-ui-vue-js-parser",
+  "version": "1.0.0",
+  "description": "lifehacker.com RSS Feeds Edit Aggregator",
+  "main": "index.js",
+  "scripts": {
+    "start:srv": "set PORT=3000&& node ./index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3",
+    "jose": "^4.7.0",
+    "lowdb": "^3.0.0",
+    "xml-js": "^1.6.11"
+  }
+}
